@@ -1,0 +1,49 @@
+* /* padding and border are included in total width/height of all elements */
+{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+header, section, footer, aside, nav, main, article, figure
+{
+  display: block; /* to define html5 semantic elements in older browsers */
+}
+
+/******************************** Header ************************************/
+
+header
+{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+h1#title { font-family: fantasy; color: darkcyan; }
+
+subTitle /* html5 allows custom elements */
+{
+  display: block;
+  color: lightblue;
+  font-family: cursive;
+}
+
+/********************************* Main *************************************/
+
+main
+{
+  background-color: grey;
+  padding: 20px;
+}
+
+p.text { font-family: monospace; }
+
+/* default styles are for phone-sized screens; layout is responsive: */
+@media only screen and (min-width: 600px) /* tablet-sized */
+{
+
+}
+
+@media only screen and (min-width: 850px) /* full-screen */
+{
+
+}
