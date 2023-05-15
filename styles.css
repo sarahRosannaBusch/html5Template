@@ -1,3 +1,11 @@
+/** 
+ * @filename    styles.css
+ * @brief       CSS essentials
+ * @author      Sarah Rosanna Busch
+ * @version     0
+ * @date        15 May 2023
+ */
+
 * /* padding and border are included in total width/height of all elements */
 {
   box-sizing: border-box;
@@ -7,6 +15,22 @@
 header, section, footer, aside, nav, main, article, figure
 {
   display: block; /* to define html5 semantic elements in older browsers */
+}
+
+:root {
+    --background-color: var(--dark-background-color);
+    --color: var(--dark-color);
+    --button-bg-color: var(--dark-button-bg-color);
+  
+    /* dark mode */
+    --dark-background-color: #0a0a0a;
+    --dark-color: #f0f0f0;
+    --dark-button-bg-color: #1b1b1b;
+  
+    /* light mode */
+    --light-background-color: #ffffff;
+    --light-color: #252525;
+    --light-button-bg-color: #f0f0f0;
 }
 
 /******************************** Header ************************************/
